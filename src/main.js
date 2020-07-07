@@ -1,14 +1,14 @@
 /*
  * @Date: 2020-05-31 21:56:54
  * @LastEditors: hanjiawang
- * @LastEditTime: 2020-07-05 23:42:17
+ * @LastEditTime: 2020-07-07 19:56:54
  */
 
 import Vue from 'vue';
 import App from './App.vue';
 import router from './router';
 import store from './store';
-import { Button, Layout, Icon, Drawer, Radio } from 'ant-design-vue';
+import { Button, Layout, Icon, Drawer, Radio, Menu } from 'ant-design-vue';
 
 Vue.config.productionTip = false;
 
@@ -17,6 +17,7 @@ Vue.use(Layout);
 Vue.use(Icon);
 Vue.use(Drawer);
 Vue.use(Radio);
+Vue.use(Menu);
 
 new Vue({
   router,
